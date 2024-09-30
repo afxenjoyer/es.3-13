@@ -30,19 +30,19 @@ int main(void)
     {
         printf("La seconda data è la data più recente");
     }
-    else if (anno1 == anno2 && mese1 > mese2)
+    else if (mese1 > mese2)
     {
         printf("La prima data è la data più recente");
     }
-    else if (anno1 == anno2 && mese1 < mese2)
+    else if (mese1 < mese2)
     {
         printf("La seconda data è la data più recente");
     }
-    else if (anno1 == anno2 && mese1 == mese2 && giorno1 > giorno2)
+    else if (giorno1 > giorno2)
     {
         printf("La prima data è la data più recente");
     }
-    else if (anno1 == anno2 && mese1 == mese2 && giorno1 < giorno2)
+    else if (giorno1 < giorno2)
     {
         printf("La seconda data è la data più recente");
     }
